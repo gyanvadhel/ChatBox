@@ -3,105 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socket.io ChatApp</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        h1 {
-            color: #333;
-            margin: 20px 0;
-        }
-
-        #username {
-            width: 300px;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        #message {
-            width: 300px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-right: 10px;
-        }
-
-        #sendBtn {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        #sendBtn:hover {
-            background-color: #45a049;
-        }
-
-        #messages {
-            margin-top: 20px;
-            width: 80%;
-            max-width: 600px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #fff;
-            padding: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            overflow-y: auto;
-            max-height: 400px;
-        }
-
-        .message-container {
-            margin: 10px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .message-container.own-message {
-            align-items: flex-end;
-        }
-
-        .username {
-            font-weight: bold;
-            color: #555;
-            margin-bottom: 2px;
-        }
-
-        .message {
-            margin: 0;
-            padding: 8px 12px;
-            border-radius: 5px;
-            background-color: #eee;
-            max-width: 70%;
-            word-wrap: break-word;
-        }
-
-        .own-message .message {
-            background-color: #007bff;
-            color: white;
-        }
-
-        .other-message .message {
-            background-color: #007bff;
-            color: white;
-        }
-    </style>
+    <title>ChatApp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ChatterBox</h1>
+    <h1>ChatBox</h1>
 
     <input type="text" id="username" placeholder="Enter your username" />
     <div>
