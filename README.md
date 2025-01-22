@@ -18,6 +18,7 @@ This is a lightweight chat application designed to run on a local network. Built
 - [Node.js](https://nodejs.org) (v14 or later recommended)
 - Basic knowledge of JavaScript and web development.
 - A local network to connect clients and the server.
+- Check out the user guide of Socket.io to fully understand the functions.
 
 ## Installation
 1. **Clone the repository**:
