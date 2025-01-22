@@ -22,8 +22,8 @@ This is a lightweight chat application designed to run on a local network. Built
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/gyanvadhel/ChatBox.git
+   cd <repo-folder>
    ```
 
 2. **Install dependencies**:
@@ -33,11 +33,11 @@ This is a lightweight chat application designed to run on a local network. Built
 
 3. **Start the server**:
    ```bash
-   node server.js
+   node index.js
    ```
 
 4. **Access the chat application**:
-   Open a web browser and navigate to `http://<server-ip>:<port>` (default port: 3000).
+   Open a web browser and navigate to `http://localhost:3000`
 
 ## Usage
 1. Ensure all devices are connected to the same local network.
@@ -46,11 +46,11 @@ This is a lightweight chat application designed to run on a local network. Built
 4. Start chatting in real-time!
 
 ## Customization
-- **Port**: Change the port in `server.js` if needed:
+- **Port**: Change the port in `index.js` if needed:
   ```javascript
   const PORT = 3000;
   ```
-- **Styling**: Modify `styles.css` to customize the appearance.
+- **Styling**: Modify `style.css` to customize the appearance.
 
 ## Troubleshooting
 - **Connection Issues**: Ensure all devices are connected to the same network and the correct IP address is being used.
@@ -62,8 +62,6 @@ This is a lightweight chat application designed to run on a local network. Built
 - Enhance UI/UX with modern design frameworks.
 - Add support for media sharing.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Acknowledgments
 - [Node.js](https://nodejs.org)
